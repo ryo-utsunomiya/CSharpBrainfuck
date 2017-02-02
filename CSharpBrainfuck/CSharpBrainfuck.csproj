@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IO.cs" />
+    <Compile Include="IOperator.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="Memory.cs" />
+    <Compile Include="Operator\Output.cs" />
+    <Compile Include="Operator\Move.cs" />
+    <Compile Include="Operator\Loop.cs" />
+    <Compile Include="Operator\Input.cs" />
+    <Compile Include="Operator\Change.cs" />
+    <Compile Include="Parser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

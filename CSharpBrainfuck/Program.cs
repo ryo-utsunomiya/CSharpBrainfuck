@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpBrainfuck
 {
@@ -10,6 +6,13 @@ namespace CSharpBrainfuck
     {
         static void Main(string[] args)
         {
+            string helloWorld = @"++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.";
+            var output = new Language().Run(helloWorld);
+
+            foreach (var i in output)
+            {
+                Console.Write((char)i);
+            }
         }
     }
 }
